@@ -3,7 +3,7 @@ name: Tennis booking dry-run
 on:
   schedule:
     # Run 15 minutes early to account for possible delays in GitHub Actions scheduling.
-    - cron: '15 7 * * *'
+    - cron: '58 9 * * *'
       timezone: 'Europe/Paris'
   workflow_dispatch:
 
